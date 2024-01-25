@@ -1,0 +1,76 @@
+
+
+.logo {
+    height: 3rem;
+    width: auto;
+}
+
+.light-ft-color:hover {
+    color: var( --green-first-light-color);
+}
+
+.nav-item:hover {
+    color: var(--green-first-light-color) !important; 
+}
+
+/******************* FOOTER ********************/
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--green-main-color);
+    height: auto;
+    padding: 1rem;
+    color: var(--light-bg-color);
+}
+
+p {
+    margin: 0;
+}
+
+.light-font {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.icon-sm {
+    height: 2rem !important;
+    width: auto !important;
+}
+
+.icon-sm:hover {
+    color: var(--green-first-light-color) !important; 
+}
+
+/******************* RESET BOOTSTRAP STYLES ********************/
+
+.main-green-bg {
+    background-color: var(--green-main-color);
+}
+
+.light-ft-color {
+    color: var(--light-bg-color) !important;
+}
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: var(--bg-first-color-hover) !important;
+    border: 1.5px solid white !important;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler:focus {
+    background-color: white !important;
+    border: 1.5px solid white !important;
+    text-decoration: underline;
+    outline: 0;
+    box-shadow: 1 1 1 var(--hover-link-color) !important;
+
+}
+
+.navbar-toggler-icon {
+    background-image: white !important; 
+
+}
