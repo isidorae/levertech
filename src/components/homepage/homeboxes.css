@@ -43,7 +43,7 @@
 .contact-img-container {
     height: 50vh;
     width: auto;
-    background-image: url(../homepage-imgs/contactanos-people.jpg);
+    background-image: url(/homepage-imgs/contactanos-people.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -47,12 +47,16 @@ p {
 }
 
 .icon-sm {
-    height: 2rem !important;
+    height: 1.5rem !important;
     width: auto !important;
 }
 
 .icon-sm:hover {
     color: var(--green-first-light-color) !important; 
+}
+
+.footer-title {
+    font-size: 20px;
 }
 
 /******************* RESET BOOTSTRAP STYLES ********************/

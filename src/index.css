@@ -17,13 +17,17 @@ body {
   background-color: var(--light-bg-color) !important;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
   font-family: 'Poppins', sans-serif;
   color:  var(--green-main-color) !important;
 }
 
 a, p {
   font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin-bottom: 0 !important;
 }
 
 .main-green-font {
@@ -41,6 +45,11 @@ a, p {
 .bold-text {
   font-weight: 600;
 }
+
+.light-text {
+  font-weight: 200;
+}
+
 
 
 
