@@ -8,11 +8,11 @@ import logo from "../assets/leverwhite.png";
 import { useState } from "react";
 
 function NavBar() {
-  const [isAuth, setIsAuth] = useState(false);
+  const [isAuth, setIsAuth] = useState(true);
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className="main-green-bg">
+      <Navbar collapseOnSelect expand="lg" sticky="top" className="navbar-shadow main-green-bg">
         <Container>
           <Navbar.Brand as={Link} to="/" className="light-ft-color">
             <img className="logo" src={logo}></img>
@@ -42,7 +42,22 @@ function NavBar() {
             </Nav>
             <Nav>
               {isAuth ? (
-                <Nav.Link as={Link} to="/login">
+                <>
+                <NavDropdown title="@Usuario" id="collapsible-nav-dropdown" className="mt-1 light-ft-color">
+                <NavDropdown.Item href="#action/3.1">
+                    Mi Perfil
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.1">
+                    Contratar
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">
+                    Simular
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">
+                    Agendar
+                  </NavDropdown.Item>
+              </NavDropdown>
+                <Nav.Link as={Link} to="/logout">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -61,6 +76,8 @@ function NavBar() {
                     />
                   </svg>
                 </Nav.Link>
+                </>
+
               ) : (
                 <Nav.Link as={Link} to="/login">
                   <svg

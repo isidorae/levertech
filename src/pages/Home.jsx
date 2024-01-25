@@ -1,10 +1,11 @@
+import HomeComponent from "../components/homepage/HomeComponent"
 
 function Home() {
 
     return(
         <>
         <div className="full-view-height">
-        <h1>Homepage</h1>
+        <HomeComponent />
         </div>
         </>
     )

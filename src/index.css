@@ -1,10 +1,13 @@
 :root {
   font-family: 'Poppins', sans-serif;
-  --green-main-color: #008080;
   --light-bg-color: #eefbfe;
   --green-first-light-color: #93e4c1;
   --green-second-light-color: #3baea0;
   --green-third-dark-color: #1f6f78;
+
+  --green-main-color: #008080;
+  --grey-font: #6c6c6c;
+  --box-shadow-color: rgb(146, 146, 146);
   --orange-main-color: #f98017;
 
 
@@ -23,7 +26,21 @@ a, p {
   font-family: 'Poppins', sans-serif;
 }
 
+.main-green-font {
+ color: var(--green-main-color);
+}
 
+.grey-font {
+  color: var(--grey-font);
+}
+
+.light-font {
+  color: var(--light-bg-color);
+}
+
+.bold-text {
+  font-weight: 600;
+}
 
 
 

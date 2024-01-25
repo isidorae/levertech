@@ -13,6 +13,20 @@
     color: var(--green-first-light-color) !important; 
 }
 
+.nav-link {
+    color: var(--light-bg-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--green-first-light-color) !important;
+}
+
+.navbar-shadow {
+    border-bottom: thin solid var(--green-third-dark-color);
+    box-shadow: 0rem 0rem 0.3rem var(--green-third-dark-color);
+}
+
+
 /******************* FOOTER ********************/
 
 footer {

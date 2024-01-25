@@ -1,0 +1,41 @@
+
+.hero-img-container {
+    height: 75vh;
+    width: auto;
+    background-image: url(../homepage-imgs/heroimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-img-opacity {
+    height: inherit;
+    width: inherit;
+    background: rgb(8,8,20);
+    background: linear-gradient(16deg, rgba(12, 12, 40, 0.5) 0%, rgba(35,35,79,0.4) 35%, rgba(178,232,244,0.4) 100%);
+
+}
+
+.hero-img-title {
+    color: var(--light-bg-color) !important;
+    font-weight: 600 !important;
+    padding: 2rem;
+    text-shadow: 0.15rem 0.2rem 0.5rem rgb(56, 62, 121);
+}
+
+
+
+@media (max-width: 800px) {
+    .hero-img-container {
+        height: 40vh;
+    } 
+    
+}
+
+@media (min-width: 800px) {
+    .hero-img-title {
+        padding: 5rem;
+        font-size: 50px;
+    }
+    
+}
