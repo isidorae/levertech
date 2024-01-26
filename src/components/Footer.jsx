@@ -15,30 +15,30 @@ function Footer() {
         <footer>
             <Container className="mb-4 pt-2" >
                 <Row>
-                    <Col sm={4}>
+                    <Col xs={6} sm={4}>
                         <img className="logo" src={logo}></img>
                         <section className="light-font mt-2">
                             Democratizando la estructura financiera inmobiliaria.
                         </section>
                     </Col>
-                    <Col sm={3}>
+                    <Col xs={6} sm={4}>
                     <h3 className="footer-title light-font bold-text">Menu</h3>
                     <div className="light-text">
-                        <p>Nosotros</p>
-                        <p>Como funciona</p>
-                        <p>Noticias</p>
-                        <p>Preguntas frecuentes</p>
-                        <p>Trabaja con nosotros</p>
+                        <Link to="/nosotros"><p>Nosotros</p></Link>
+                        <Link to="/como-funciona"><p>Cómo funciona</p></Link>
+                        <Link to="/noticias"><p>Noticias</p></Link>
+                        <Link to="/faqs"><p>Preguntas frecuentes</p></Link>
+                        <Link to="/trabaja-con-nosotros"><p>Trabaja con nosotros</p></Link>
                     </div>
                     </Col>
-                    <Col>
+                    <Col className="legal-col">
                     <h3 className="footer-title light-font bold-text">Legal</h3>
                     <div className="light-text">
-                        <p>Privacidad</p>
-                        <p>Terminos</p>
+                        <Link to="/politicas-privacidad"><p>Privacidad</p></Link>
+                        <Link to="/terminos-y-condiciones"><p>Términos</p></Link>
                     </div>
                     </Col>
-                    <Col className="text-center">
+                    <Col className="social-media-col">
                     <h3 className="footer-title light-font bold-text">Siguenos!</h3>
                     <section className="mt-2">
                         <Link to="https://www.linkedin.com/company/leverchile/" className="me-2">
@@ -54,7 +54,7 @@ function Footer() {
                     </Col>
                 </Row>
             </Container>
-            <p className="text-center"><small className="light-font">Lever Tech SpA &#169; 2024</small></p>
+            <p className="text-center"><small className="light-font">LeverTech SpA &#169; 2024</small></p>
             {/* <div className="d-flex flex-column align-items-center mt-3">
                 <section>
                     <img className="logo" src={logo}></img>

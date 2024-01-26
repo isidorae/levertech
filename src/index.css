@@ -26,6 +26,15 @@ a, p {
   font-family: 'Poppins', sans-serif;
 }
 
+form, label, input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+input {
+  font-weight: 200;
+}
+
 p {
   margin-bottom: 0 !important;
 }

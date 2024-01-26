@@ -13,6 +13,8 @@ import Contratar from './pages/Contratar'
 import Simulador from './pages/Simulador'
 import Calendar from './pages/Calendar'
 import Profile from './pages/Profile'
+import Privacidad from './pages/Privacidad'
+import Terminos from './pages/Terminos'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 
@@ -35,6 +37,8 @@ function App() {
         <Route path="/simulador" element={< Simulador/>}/>
         <Route path="/agendar" element={< Calendar/>}/>
         <Route path="/profile" element={< Profile/>}/>
+        <Route path="/politicas-privacidad" element={< Privacidad/>}/>
+        <Route path="/terminos-y-condiciones" element={< Terminos/>}/>
         <Route path="/*" element={<Navigate to="/" />}/>
       </Routes>
       <Footer />

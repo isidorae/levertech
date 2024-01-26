@@ -37,6 +37,15 @@ footer {
     color: var(--light-bg-color);
 }
 
+footer a {
+    color: var(--light-bg-color) !important;
+    text-decoration: none !important;
+}
+
+footer a:hover {
+    color: var(--green-first-light-color) !important;
+}
+
 p {
     margin: 0;
 }
@@ -57,6 +66,28 @@ p {
 
 .footer-title {
     font-size: 20px;
+}
+
+.social-media-col {
+    text-align: center;
+}
+
+/* social-media-col */
+@media (max-width: 750px) {
+    .social-media-col {
+        margin-top: 0.7rem !important;
+    } 
+    
+}
+@media (max-width: 580px) {
+    .legal-col {
+        margin-top: 0.8rem !important;
+    } 
+
+    .social-media-col {
+        text-align:left !important;
+    }
+    
 }
 
 /******************* RESET BOOTSTRAP STYLES ********************/

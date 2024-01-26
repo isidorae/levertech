@@ -25,7 +25,7 @@ function NavBar() {
                 to="/como-funciona"
                 className="light-ft-color nav-item"
               >
-                ¿Como Funciona?
+                ¿Cómo Funciona?
               </Nav.Link>
               <Nav.Link as={Link} to="/nosotros" className="light-ft-color nav-item">
                 Nosotros

@@ -1,4 +1,4 @@
-import creditimg from '/public/homepage-imgs/credito-consumo.jpg'
+import creditimg from '/homepage-imgs/credito-consumo.jpg'
 import './homeboxes.css'
 
 function ThirdComponent() {

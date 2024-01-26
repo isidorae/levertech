@@ -1,9 +1,12 @@
+import ContactComponent from "../components/contact/ContactComponent"
 
 function Contact() {
 
     return(
         <>
-        <h1>Contacto</h1>
+        <div className="full-view-height">
+        <ContactComponent />
+        </div>
         </>
     )
 }
