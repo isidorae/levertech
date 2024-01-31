@@ -1,10 +1,11 @@
 import ContactComponent from "../components/contact/ContactComponent"
+import './pages.css'
 
 function Contact() {
 
     return(
         <>
-        <div className="full-view-height">
+        <div className="full-view-height linear-gradient-green-bg">
         <ContactComponent />
         </div>
         </>

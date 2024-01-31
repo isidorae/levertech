@@ -3,7 +3,7 @@ function ContactForm() {
 
     return(
         <>
-        <div className="contact-form-card m-5">
+        <div className="contact-form-card mt-4 mb-5">
             <form className="d-flex flex-column">
                 <label className="mt-2">Nombre Completo*</label>
                 <input type="text" placeholder="Nombre completo"/>
@@ -15,6 +15,7 @@ function ContactForm() {
                 <select name="select">
                     <option value="value1" selected className="option-input">Comprar</option>
                     <option value="value2">Arrendar</option>
+                    <option value="value3">Otro</option>
                 </select>
                 <label className="mt-2">Mensaje</label>
                 <textarea></textarea>

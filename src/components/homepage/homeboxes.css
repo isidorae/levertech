@@ -3,7 +3,7 @@
     max-width: 800px;
     font-weight: 300;
     font-size: 20px;
-    background-color: var(--green-second-light-color);
+    background-color: var( --green-third-light-color);
     color: var(--light-bg-color);
     padding: 3rem;
     border-radius: 10px;
@@ -28,7 +28,7 @@
 }
 
 .third-component-text {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 25px;
     text-align: center;
 }

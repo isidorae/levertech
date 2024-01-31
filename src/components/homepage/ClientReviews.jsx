@@ -17,9 +17,9 @@ function ClientReviews() {
                             <div className="review-card d-flex flex-column">
                                 <section className="mb-2">
                                     <img className="review-person-img" src={alberto} />
-                                    <p className="light-font">Alberto Diaz</p>
+                                    <p className="light-font client-name mt-1">Alberto Diaz</p>
                                 </section>
-                                <section>
+                                <section className="client-review-text">
                                 <p className="light-font">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur fugiat sequi eveniet. Corporis labore ducimus consectetur soluta sunt minus eum tempore! Architecto minima consectetur dignissimos adipisci quae at alias?"</p>
                                     <img className="five-stars mt-2" src={stars}></img>
                                 </section>
@@ -29,7 +29,7 @@ function ClientReviews() {
                             <div className="review-card d-flex flex-column">
                                 <section className="mb-2">
                                     <img className="review-person-img" src={alberto} />
-                                    <p className="light-font">Ignacio Gonzalez</p>
+                                    <p className="light-font client-name mt-1">Ignacio Gonzalez</p>
                                 </section>
                                 <section>
                                 <p className="light-font">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur fugiat sequi eveniet. Corporis labore ducimus consectetur soluta sunt minus eum tempore!"</p>
@@ -41,7 +41,7 @@ function ClientReviews() {
                             <div className="review-card d-flex flex-column">
                                 <section  className="mb-2">
                                     <img className="review-person-img" src={alberto} />
-                                    <p className="light-font">Pedro Astudillo</p>
+                                    <p className="light-font client-name mt-1">Pedro Astudillo</p>
                                 </section>
                                 <section>
                                 <p className="light-font">"Lorem, ipsum dolor sit amet consectetur adipisicing elit.  Corporis labore ducimus consectetur soluta sunt minus eum tempore! Architecto minima consectetur dignissimos adipisci quae at alias?"</p>

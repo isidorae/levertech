@@ -1,3 +1,4 @@
+
 .review-card {
     height: 380px;
     min-width: 350px;
@@ -6,6 +7,14 @@
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0rem 0.2rem 0.4rem rgba(168, 179, 235, 0.8);
+}
+
+.client-name {
+    font-weight: 700 !important;
+}
+
+h1 {
+    font-weight: 700 !important;
 }
 
 .five-stars {
