@@ -80,9 +80,29 @@ p {
   font-weight: 200;
 }
 
+/* errors */
+.form-err-msg {
+  color: rgb(217, 68, 68);
+}
+
+.form-err {
+  border: 2px solid red;
+}
+
+/* contact pg */
 .linear-gradient-green-bg {
   background: rgb(29,98,90);
   background: linear-gradient(18deg, rgba(29,98,90,1) 0%, rgba(174,239,197,1) 0%, rgba(13,133,127,1) 100%);
+  }
+
+  .linear-gradient-green-bg-left {
+    background: rgb(0,128,128);
+    background: linear-gradient(56deg, rgba(0,128,128,1) 0%, rgba(174,239,197,1) 100%);
+  }
+
+  .linear-gradient-green-bg-right {
+    background: rgb(0,128,128);
+    background: linear-gradient(288deg, rgba(0,128,128,1) 0%, rgba(174,239,197,1) 100%);
   }
 
 
@@ -101,6 +121,21 @@ p {
   background-color: var(--blue-strong-color);
   color: var( --light-bg-color);
   border: 2px solid var( --light-bg-color);
+}
+
+.modal-btn {
+  font-family: 'Montserrat', sans-serif;
+  width: 10rem;
+  color: var( --light-bg-color);
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: var(--green-second-light-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.modal-btn:hover {
+  background-color: var(--blue-strong-color);
 }
 
 

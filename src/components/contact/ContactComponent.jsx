@@ -9,7 +9,7 @@ function ContactComponent() {
             <h1 className="mt-5 text-white">Contáctanos</h1>
             <section className="d-flex flex-column align-items-center">
                 <div className="contact-text-container text-center mt-3">
-                    <p className="dark-grey-ft">Rellena el siguiente formulario y te contáctaremos lo antes posible para ayudarte a encontrar una solución.</p>
+                    <p className="text-white fw-bold">Rellena el siguiente formulario y te contáctaremos lo antes posible para ayudarte a encontrar una solución.</p>
                 </div>
                 <ContactForm />
             </section>

@@ -11,9 +11,9 @@ function ClientReviews() {
         <>
             <div className="p-4 mt-2 text-center">
                 <h1 className="mt-3 mb-4">Conoce la experiencia de nuestros clientes</h1>
-                <Container className="justify-content-center align-items-center">
-                    <Row>
-                        <Col sm className="mb-3">
+                <Container className="d-flex justify-content-center">
+                    <Row className="">
+                        <Col className="mb-3 d-flex justify-content-center">
                             <div className="review-card d-flex flex-column">
                                 <section className="mb-2">
                                     <img className="review-person-img" src={alberto} />
@@ -25,7 +25,7 @@ function ClientReviews() {
                                 </section>
                             </div>
                         </Col>
-                        <Col sm className="mb-4">
+                        <Col className="mb-4 d-flex justify-content-center">
                             <div className="review-card d-flex flex-column">
                                 <section className="mb-2">
                                     <img className="review-person-img" src={alberto} />
@@ -37,7 +37,7 @@ function ClientReviews() {
                                 </section>
                             </div>
                         </Col>
-                        <Col sm>
+                        <Col className="d-flex justify-content-center">
                             <div className="review-card d-flex flex-column">
                                 <section  className="mb-2">
                                     <img className="review-person-img" src={alberto} />

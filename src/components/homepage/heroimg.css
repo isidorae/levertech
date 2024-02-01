@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
 }
 
+
 .hero-img-opacity {
     height: inherit;
     width: inherit;
@@ -29,6 +30,19 @@
     .hero-img-container {
         height: 40vh;
     } 
+    
+}
+
+@media (max-width: 600px) {
+    .main-btn {
+        padding: 0.5rem !important;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    } 
+
+    h1 {
+        padding: 0.5rem !important;
+    }
     
 }
 

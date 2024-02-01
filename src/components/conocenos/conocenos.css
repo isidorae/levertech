@@ -6,3 +6,80 @@
     max-width: 600px;
     padding: 2rem;
 }
+
+.fundadores-container {
+    height: 50vh;
+}
+
+.fundadores-img {
+    height: inherit;
+    width: inherit;
+    background-image: url(/aboutus-imgs/ale-benja-png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+/* MODAL WINDOWS */
+/* .modal {
+    width: 370px !important;
+} */
+
+.modal-content {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--green-third-light-color) !important;
+    color: white !important;
+    border-radius: 5px !important;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.btn-close {
+    --bs-btn-close-color: white !important;
+}
+
+/* .cultura-laboral-container {
+    height: 65vh;
+    background-image: url(/aboutus-imgs/leverteam-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cultura-laboral-opacity {
+    height: inherit;
+    background: rgb(8,8,20);
+    background: linear-gradient(16deg, rgba(12, 12, 40, 0.4) 0%, rgba(35,35,79,0.3) 35%, rgba(178,232,244,0.5) 100%);
+} */
+
+.team-img {
+    height: 40vh;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .team-img {
+        width: 350px;
+        height:auto;
+    } 
+    
+}
+
+@media (min-width: 550px) {
+    .team-img {
+        width: 350px;
+        height:auto;
+    } 
+    
+}
+
+/* height: 75vh;
+width: auto;
+background-image: url(/homepage-imgs/heroimg-clean.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat; */

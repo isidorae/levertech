@@ -1,5 +1,4 @@
-import ContactComponent from "../components/contact/ContactComponent"
-import './pages.css'
+import ContactComponent from "../../components/contact/ContactComponent"
 
 function Contact() {
 

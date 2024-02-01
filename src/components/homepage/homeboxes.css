@@ -77,3 +77,28 @@
     } 
     
 }
+
+@media (max-width: 450px) {
+    .second-comp-container {
+        text-align: center ;
+        padding: 1rem;
+    }
+
+    .third-comp-container {
+        padding: 1.5rem;
+    }
+
+    .fourth-comp-text {
+        padding: 2rem;
+    }
+
+    .contact-img-container {
+    height: 50vh;
+    width: auto;
+    background-image: url(/homepage-imgs/contactanos-people.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+}
