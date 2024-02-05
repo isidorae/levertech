@@ -13,7 +13,7 @@ function Footer() {
     return(
         <>
         <footer>
-            <Container className="mb-4 pt-2" >
+            <Container className="footer-container mb-4 pt-2" >
                 <Row>
                     <Col xs={6} sm={4}>
                         <img className="logo" src={logo}></img>
@@ -23,7 +23,7 @@ function Footer() {
                     </Col>
                     <Col xs={6} sm={4}>
                     <h3 className="footer-title light-font bold-text">Menu</h3>
-                    <div className="light-text">
+                    <div className="white-text">
                         <Link to="/nosotros"><p>Nosotros</p></Link>
                         <Link to="/como-funciona"><p>Cómo funciona</p></Link>
                         <Link to="/noticias"><p>Noticias</p></Link>

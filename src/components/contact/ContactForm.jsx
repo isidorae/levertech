@@ -114,9 +114,9 @@ function ContactForm() {
                 <select value={reason} onChange={(e) => setReason(e.target.value)}
                 onBlur={() => onBlurEvent("reason")} className={reasonErr.length > 0 ? "form-err" : null}>
                     <option>--Seleccionar--</option>
-                    <option value="comprar" selected className="option-input">Comprar</option>
-                    <option value="arrendar">Arrendar</option>
-                    <option value="otro">Otro</option>
+                    <option value="Comprar" className="option-input">Comprar</option>
+                    <option value="Arrendar">Arrendar</option>
+                    <option value="Otro">Otro</option>
                 </select>
                 {reasonErr.length > 0 
                 ? <span className="ms-1 form-err-msg">{reasonErr}</span>

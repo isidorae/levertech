@@ -4,7 +4,7 @@
     font-weight: 300;
     font-size: 20px;
     background-color: var( --green-third-light-color);
-    color: var(--light-bg-color);
+    color: white;
     padding: 3rem;
     border-radius: 10px;
     box-shadow: 0rem 0.1rem 0.2rem rgba(168, 179, 235, 1);

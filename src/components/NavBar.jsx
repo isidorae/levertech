@@ -12,14 +12,17 @@ function NavBar() {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" sticky="top" className="navbar-shadow main-green-bg">
-        <Container>
+      <Navbar collapseOnSelect expand="lg" sticky="top" className="navbar navbar-shadow main-green-bg">
+        <Container className="navbar-container">
           <Navbar.Brand as={Link} to="/" className="light-ft-color">
             <img className="logo" src={logo}></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
+              <Nav.Link as={Link} to="/" className="light-ft-color nav-item">
+                Inicio
+              </Nav.Link>
               <Nav.Link
                 as={Link}
                 to="/como-funciona"
@@ -35,9 +38,6 @@ function NavBar() {
               </Nav.Link>
               <Nav.Link as={Link} to="/noticias" className="light-ft-color nav-item">
                 Noticias
-              </Nav.Link>
-              <Nav.Link as={Link} to="/faqs" className="light-ft-color nav-item">
-                Preguntas
               </Nav.Link>
             </Nav>
             <Nav>

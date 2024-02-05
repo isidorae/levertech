@@ -1,0 +1,45 @@
+.heroimg-service-container {
+    height: 70vh;
+    width: auto;
+    background-image: url(/homepage-imgs/comofunciona.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 0px -45px;
+}
+
+.heroimg-service-opacity {
+    height: inherit;
+    width: inherit;
+    background: rgb(8,8,20);
+    background: linear-gradient(16deg, rgba(12, 12, 40, 0.4) 0%, rgba(35,35,79,0.3) 35%, rgba(178,232,244,0.3) 100%);
+}
+
+.comofunciona-text-container {
+    padding: 2rem;
+}
+
+.pasos-container {
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    background-color: var(--green-first-light-color);
+}
+
+.benefits-container {
+    max-width: 600px !important;
+}
+
+@media (max-width: 800px) {
+    .heroimg-service-container {
+        height: 40vh;
+        background-position: 0px -20px;
+    } 
+    
+}
+
+@media (max-width: 450px) {
+    .heroimg-service-container {
+        background-position: 0px 0px;
+    } 
+    
+}

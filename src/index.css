@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Montserrat', sans-serif;
+  --font-family: 'Montserrat', sans-serif;
   --light-bg-color: #eefbfe;
   --green-first-light-color: #93e4c1;
   --green-second-light-color: #3baea0;
@@ -53,6 +53,19 @@ input {
 
 p {
   margin-bottom: 0 !important;
+}
+
+.bg-color-white {
+  background-color: white;
+}
+
+.bg-color-light {
+  background-color: var(--light-bg-color);
+}
+
+
+.second-green-color {
+  color: var(--green-second-light-color);
 }
 
 .main-green-font {

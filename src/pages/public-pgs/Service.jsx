@@ -1,9 +1,12 @@
+import ComoFunciona from "../../components/como-funciona/ComoFunciona"
 
 function Service() {
 
     return(
         <>
-        <h1>¿Como funciona?</h1>
+        <div className="full-view-height">
+            <ComoFunciona />
+        </div>
         </>
     )
 }
