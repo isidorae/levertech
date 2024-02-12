@@ -35,7 +35,7 @@ function Fundadores() {
         <Modal.Body>
         <div className="d-flex flex-column">
             <p> Alejandro Longueira y Benjamín Smith, ambos Ingenieros Comerciales,
-        luego de una gran trayectoria laboral decidieron unir fuerzas para crear LEVERTECH el 2023.
+        luego de una gran trayectoria laboral decidieron unir fuerzas para crear LeverProp el 2023.
         Alejando desde el punto de vista financiero, ya que además de tener un magíster en finanzas,
         se dedicó estos últimos años al área financiera en instituciones bancarias,
         demostrando una amplia experiencia en la estructuración estratégica de pasivos para los clientes.
@@ -43,7 +43,7 @@ function Fundadores() {
         años a ejercer su profesión en grandes empresas de retail, logrando obtener un conocimiento profundo
         en como generar conexiones directas con clientes.
             </p>
-            <Link to="/historia"><button className="modal-btn align-self-start mt-4">Ver más</button></Link>
+            <Link to="/historia"><button className="modal-btn align-self-start mt-4">Conoce toda la historia!</button></Link>
         </div>
         </Modal.Body>
       </Modal>

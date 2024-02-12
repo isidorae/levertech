@@ -29,6 +29,39 @@
     max-width: 600px !important;
 }
 
+.person-icon {
+    height: 3.2rem;
+}
+
+.segmentos-container {
+    max-width: 600px;
+}
+
+/* Simulaodr */
+
+.simulador-container {
+    background-color: var( --grey-font-dark);
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 400px;
+    box-shadow: 0rem 0.2rem 0.4rem rgba(121, 127, 158, 0.8);
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.simulador-container:hover {
+    filter: drop-shadow(0 0 1em #4c4996aa);
+}
+
+.simulador-input {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
 @media (max-width: 800px) {
     .heroimg-service-container {
         height: 40vh;

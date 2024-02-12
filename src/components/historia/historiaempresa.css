@@ -1,0 +1,28 @@
+.historia-empresa-container {
+    margin: 0 auto;
+}
+
+.benjale-img {
+    height: 70vh;
+    width: auto;
+}
+
+.benjale-grid {
+    height: 80vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+}
+
+.history-section-card {
+    min-width: 350px;
+}
+
+
+@media (max-width: 1200px) {
+    .mision-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    
+    }
+}

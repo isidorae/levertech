@@ -18,6 +18,7 @@ import Terminos from './pages/Terminos'
 import Historia from './pages/about/Historia'
 import CulturaLaboral from './pages/about/CulturaLaboral'
 import Valores from './pages/about/Valores'
+import Equipo from './pages/about/Equipo'
 
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
@@ -33,6 +34,7 @@ function App() {
         <Route path="/historia" element={< Historia/>}/>
         <Route path="/cultura-laboral" element={< CulturaLaboral/>}/>
         <Route path="/valores" element={< Valores/>}/>
+        <Route path="/equipo" element={< Equipo/>}/>
         <Route path="/como-funciona" element={< Service/>}/>
         <Route path="/contacto" element={< Contact/>}/>
         <Route path="/faqs" element={< Faqs/>}/>

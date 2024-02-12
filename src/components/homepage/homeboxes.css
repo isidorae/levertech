@@ -24,7 +24,7 @@
 
 .third-comp-container {
     background-color:white;
-    box-shadow: 0.5rem 0.4rem 0.7rem rgba(226, 231, 255, 0.8);
+    box-shadow: 0.1rem 0.1rem 0.7rem rgba(122, 131, 177, 0.8);
 }
 
 .third-component-text {
@@ -62,6 +62,15 @@
     font-weight: 600 !important;
     padding: 2rem;
     text-shadow: 0.15rem 0.2rem 0.5rem rgb(56, 62, 121);
+}
+
+.equipo-card {
+    width: 300px;
+    height: 350px;
+}
+
+.requisitos-text-container {
+    max-width: 600px;
 }
 
 @media (max-width: 900px) {

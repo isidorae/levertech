@@ -38,7 +38,7 @@ function CulturaLaboral() {
         </Modal.Header>
         <Modal.Body>
         <div className="d-flex flex-column">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptas maxime dolor doloremque vel! Harum enim magnam iusto. Soluta, expedita. At officia vel ullam recusandae non reiciendis voluptate rem explicabo!
+            <p> No hay un mejor lugar para trabajar qué Lever, lo pasamos la filete! Tenemos como objetivo ser "The greatest place to work". Trabajamos en equipo y nos aseguramos de pasarlo bien todos los días. Que no falten las risas!!. Valoramos el bienestar de cada uno de los miembros del equipo, creamos un ambiente relajado, flexible y agradable para trabajar. Nos apoyamos mutuamente y el compromiso es clave para lograr un desempeño excepcional que saque la mejor versión de cada uno. Conoce la experiencia de trabajo única que está a otro Lever!! .🚀 🌟
             </p>
             <Link to="/cultura-laboral"><button className="modal-btn align-self-start mt-4">Ver más</button></Link>
         </div>

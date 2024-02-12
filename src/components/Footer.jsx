@@ -54,7 +54,7 @@ function Footer() {
                     </Col>
                 </Row>
             </Container>
-            <p className="text-center"><small className="light-font">LeverTech SpA &#169; 2024</small></p>
+            <p className="text-center"><small className="light-font">Lever Corp SpA &#169; 2024</small></p>
             {/* <div className="d-flex flex-column align-items-center mt-3">
                 <section>
                     <img className="logo" src={logo}></img>

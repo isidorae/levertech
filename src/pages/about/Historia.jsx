@@ -1,10 +1,11 @@
+import HistoriaEmpresa from "../../components/historia/HistoriaEmpresa"
 
 function Historia() {
 
     return(
         <>
         <div className="full-view-height">
-            <h1>Historia</h1>
+            <HistoriaEmpresa />
         </div>
         </>
     )

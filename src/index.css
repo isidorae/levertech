@@ -4,6 +4,7 @@
   --green-first-light-color: #93e4c1;
   --green-second-light-color: #3baea0;
   --green-third-light-color: #008080;  
+  --green-light-bg-color: #AEEFC5;
   --green-dark-color: #026163;
   --blue-dark-color: #719bc1;
   --blue-light-color: #a8c0d8;
@@ -12,6 +13,7 @@
   --green-main-color: #016768;
   --grey-font: #6c6c6c;
   --grey-font-dark: #4f4f4f;
+  --grey-light-color: #a8a8a8;
   --box-shadow-color: rgb(146, 146, 146);
   --orange-main-color: #f98017;
 
@@ -27,7 +29,7 @@ extrabold 800 */
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--light-bg-color) !important;
+  /* background-color: var(--light-bg-color) !important; */
 }
 
 h1, h2 {
@@ -55,12 +57,24 @@ p {
   margin-bottom: 0 !important;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .bg-color-white {
   background-color: white;
 }
 
 .bg-color-light {
   background-color: var(--light-bg-color);
+}
+
+.bg-color-light-green {
+  background-color: var(--green-second-light-color);
+}
+
+.bg-color-soft-green {
+  background-color: var(--green-light-bg-color);
 }
 
 
@@ -80,10 +94,21 @@ p {
   color: var(--grey-font-dark);
 }
 
-.light-font {
-  color: var(--light-bg-color);
+.light-grey-ft {
+  color: var(--grey-light-color);
 }
 
+.light-font {
+  color: var(--light-bg-color) !important;
+}
+
+.green-light-ft {
+  color: var(--green-light-bg-color);
+}
+
+.maxvw80 {
+  max-width: 80vw;
+}
 
 .bold-text {
   font-weight: 600;
@@ -136,6 +161,19 @@ p {
   border: 2px solid var( --light-bg-color);
 }
 
+.simulador-btn {
+  background-color: #5eaa5e;
+  color:white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  width: 8rem;
+}
+
+.simulador-btn:hover {
+  background-color: var(--blue-strong-color);
+}
+
 .modal-btn {
   font-family: 'Montserrat', sans-serif;
   width: 10rem;
@@ -150,8 +188,6 @@ p {
 .modal-btn:hover {
   background-color: var(--blue-strong-color);
 }
-
-
 
 
 /*  Boostrap reset */

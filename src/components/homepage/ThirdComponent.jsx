@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import creditimg from '/homepage-imgs/credito-consumo.jpg'
 import './homeboxes.css'
 
@@ -13,7 +14,7 @@ function ThirdComponent() {
                     <br/> 
                     ¡Tenemos la respuesta!
                     </p>
-                    <button className="mt-4 main-btn">Haz click aquí</button>
+                    <Link as={Link} to="/como-funciona"><button className="mt-4 main-btn">Haz click aquí</button></Link>
                 </section>
                 <section className="order-2 order-md-2">
                     <img className="credit-img mt-4" alt="Image by storyset on Freepik" src={creditimg}></img>

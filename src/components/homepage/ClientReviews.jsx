@@ -9,7 +9,7 @@ function ClientReviews() {
 
     return(
         <>
-            <div className="p-4 mt-2 text-center">
+            <div className="p-4 mt-2 text-center bg-color-light">
                 <h1 className="mt-3 mb-4">Conoce la experiencia de nuestros clientes</h1>
                 <Container className="d-flex justify-content-center">
                     <Row className="">

@@ -61,6 +61,69 @@
     border-radius: 8px;
 }
 
+.rockstars-container {
+    height: 300px;
+    background-image: url(/aboutus-imgs/rockstars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 0px -350px; */
+}
+
+.rockstars-opacity-layer {
+    height: inherit;
+    width: inherit;
+    background: rgb(8,8,20);
+    background: linear-gradient(16deg, rgba(12, 12, 40, 0.4) 0%, rgba(35,35,79,0.3) 35%, rgba(178,232,244,0.3) 100%);
+}
+
+.mision-grid {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+
+}
+
+.mision-container {
+    min-width: 400px;
+    height: 400px;
+    background-image: url(/aboutus-imgs/visionwideimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mision-opacity {
+    height: inherit;
+    width: inherit;
+    background: rgb(8,8,20);
+    background: linear-gradient(16deg, rgba(12, 12, 40, 0.5) 0%, rgba(35,35,79,0.6) 35%, rgba(178,232,244,0.6) 100%);
+}
+
+@media (min-width: 700px) {
+    .rockstars-container {
+        background-position: 0px -100px;
+    }
+}
+
+@media (min-width: 900px) {
+    .rockstars-container {
+        background-position: 0px -200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .rockstars-container {
+        background-position: 0px -300px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mision-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    
+    }
+}
+
 @media (max-width: 600px) {
     .team-img {
         width: 350px;

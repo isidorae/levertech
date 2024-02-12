@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function HeroImg() {
 
@@ -8,7 +9,7 @@ function HeroImg() {
                 <div className="hero-img-content">
                     <section className="d-flex flex-column align-items-center justify-content-center text-center">
                         <h1 className="hero-img-title">Nos hacemos cargo de tu dividendo mientras vendemos tu propiedad</h1>
-                        <button className="main-btn">Quiero saber más</button>
+                        <Link to="/como-funciona"><button className="main-btn">Quiero saber más</button></Link>
                     </section>
                 </div>
             </div>
