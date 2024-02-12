@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import PersonCard from './PersonCard';
+
 import ale from '/equipo/el_palanca.png'
 import benja from '/equipo/benja_smith.png'
 import gonzalo from '/equipo/gonzalo_uribe.png'
@@ -17,102 +19,50 @@ function EquipoTrabajo(){
 
     return(
         <>
-        <div className="text-center">
+        <div className="rockstar-container text-center d-flex flex-column align-items-center">
             <h1 className="mt-5">Los Rockstars! 🚀🤘🏼</h1>
-            <Container>
+            <Container className="m-5">
                 <Row>
-                    <Col>
-                        <div className="equipo-small-card p-3 d-flex flex-column align-items-center justify-content-center">
-                            <section className="mt-3">
-                                <img className="equipo-card-img" src={ale} />
-                            </section>
-                            <section className="mt-2 d-flex flex-column align-items-center justify-content-center">
-                                <p className="fs-5 dark-grey-ft  fw-bold text-center">Alejandro Longueira</p>
-                                <p className="dark-grey-ft text-center">Co-founder & CEO</p>
-                            </section>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="equipo-small-card p-3 d-flex flex-column align-items-center justify-content-center">
-                            <section className="mt-3">
-                                <img className="equipo-card-img" src={benja} />
-                            </section>
-                            <section className="mt-2 d-flex flex-column align-items-center justify-content-center">
-                                <p className="fs-5 dark-grey-ft  fw-bold text-center">Benjamín Smith</p>
-                                <p className="dark-grey-ft text-center">Co-founder & CCO</p>
-                            </section>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="equipo-small-card p-3 d-flex flex-column align-items-center justify-content-center">
-                            <section className="mt-3">
-                                <img className="equipo-card-img" src={gonzalo} />
-                            </section>
-                            <section className="mt-2 d-flex flex-column align-items-center justify-content-center">
-                                <p className="fs-5 dark-grey-ft  fw-bold text-center">Gonzalo Uribe</p>
-                                <p className="dark-grey-ft text-center">Co-founder & CGO</p>
-                            </section>
-                        </div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <div className="equipo-small-card p-3 d-flex flex-column align-items-center justify-content-center">
-                            <section className="mt-3">
-                                <img className="equipo-card-img" src={mario} />
-                            </section>
-                            <section className="mt-2 d-flex flex-column align-items-center justify-content-center">
-                                <p className="fs-5 dark-grey-ft  fw-bold text-center">Mario Lipari</p>
-                                <p className="dark-grey-ft text-center">Co-founder & CCO</p>
-                            </section>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="equipo-small-card p-3 d-flex flex-column align-items-center justify-content-center">
-                            <section className="mt-3">
-                                <img className="equipo-card-img" src={hans} />
-                            </section>
-                            <section className="mt-2 d-flex flex-column align-items-center justify-content-center">
-                                <p className="fs-5 dark-grey-ft  fw-bold text-center">Hans Scherer</p>
-                                <p className="dark-grey-ft text-center">Analista de Finanzas</p>
-                            </section>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="equipo-small-card p-3 d-flex flex-column align-items-center justify-content-center">
-                            <section className="mt-3">
-                                <img className="equipo-card-img" src={cristian} />
-                            </section>
-                            <section className="mt-2 d-flex flex-column align-items-center justify-content-center">
-                                <p className="fs-5 dark-grey-ft  fw-bold text-center">Cristian Salas</p>
-                                <p className="dark-grey-ft text-center">Software Engineer</p>
-                            </section>
-                        </div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <div className="equipo-small-card p-3 d-flex flex-column align-items-center justify-content-center">
-                            <section className="mt-3">
-                                <img className="equipo-card-img" src={isi} />
-                            </section>
-                            <section className="mt-2 d-flex flex-column align-items-center justify-content-center">
-                                <p className="fs-5 dark-grey-ft  fw-bold text-center">Isidora Errázuriz</p>
-                                <p className="dark-grey-ft text-center">Full Stack Developer</p>
-                            </section>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="equipo-small-card p-3 d-flex flex-column align-items-center justify-content-center">
-                            <section className="mt-3">
-                                <img className="equipo-card-img" src={tere} />
-                            </section>
-                            <section className="mt-2 d-flex flex-column align-items-center justify-content-center">
-                                <p className="fs-5 dark-grey-ft  fw-bold text-center">Teresita Barros</p>
-                                <p className="dark-grey-ft text-center">Analista de Marketing</p>
-                            </section>
-                        </div>
-                    </Col>
+                    <PersonCard
+                    img={ale}
+                    name={"Alejandro Longueira"}
+                    text={"Co-founder & CEO"}
+                    />
+                    <PersonCard
+                    img={benja}
+                    name={"Benjamín Smith"}
+                    text={"Co-founder & CCO"}
+                    />
+                    <PersonCard
+                    img={gonzalo}
+                    name={"Gonzalo Uribe"}
+                    text={"Co-founder & CGO"}
+                    />
+                    <PersonCard
+                    img={mario}
+                    name={"Mario Lipari"}
+                    text={"Co-founder & CCO"}
+                    />
+                    <PersonCard
+                    img={hans}
+                    name={"Hans Scherer"}
+                    text={"Analista de Finanzas"}
+                    />
+                    <PersonCard
+                    img={cristian}
+                    name={"Cristian Salas"}
+                    text={"Software Engineer"}
+                    />
+                    <PersonCard
+                    img={isi}
+                    name={"Isidora Errázuriz"}
+                    text={"Full Stack Developer"}
+                    />
+                    <PersonCard
+                    img={tere}
+                    name={"Teresita Barros"}
+                    text={"Analista de Marketing"}
+                    />
                 </Row>
             </Container>
         </div>

@@ -1,9 +1,12 @@
+import FaqsComp from "../../components/faqs/FaqsComp"
 
 function Faqs() {
 
     return(
         <>
-        <h1>FAQs</h1>
+        <div className="full-view-height">
+        <FaqsComp />
+        </div>
         </>
     )
 }

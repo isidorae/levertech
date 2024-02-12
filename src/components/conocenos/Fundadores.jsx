@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 import './conocenos.css'
+
+import ModalWindow from './ModalWindow'
 
 function Fundadores() {
 
@@ -20,33 +19,14 @@ function Fundadores() {
                 </div>
             </section>
         </div>
-        <Modal
-        size="lg"
+        <ModalWindow
+        title={"FUNDADORES"}
+        text={"Alejandro Longueira y Benjamín Smith, ambos Ingenieros Comerciales, luego de una gran trayectoria laboral decidieron unir fuerzas para crear LeverProp el 2023. Alejando desde el punto de vista financiero, ya que además de tener un magíster en finanzas, se dedicó estos últimos años al área financiera en instituciones bancarias, demostrando una amplia experiencia en la estructuración estratégica de pasivos para los clientes. Por su parte Benjamín con un magister en dirección estratégica de ventas, se dedicó estos últimos años a ejercer su profesión en grandes empresas de retail, logrando obtener un conocimiento profundo en como generar conexiones directas con clientes."}
         show={modalShow}
         onHide={() => setModalShow(false)}
-        aria-labelledby="example-modal-sizes-title-sm"
-        className="d-flex align-items-center"
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="example-modal-sizes-title-sm">
-            FUNDADORES
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-        <div className="d-flex flex-column">
-            <p> Alejandro Longueira y Benjamín Smith, ambos Ingenieros Comerciales,
-        luego de una gran trayectoria laboral decidieron unir fuerzas para crear LeverProp el 2023.
-        Alejando desde el punto de vista financiero, ya que además de tener un magíster en finanzas,
-        se dedicó estos últimos años al área financiera en instituciones bancarias,
-        demostrando una amplia experiencia en la estructuración estratégica de pasivos para los clientes.
-        Por su parte Benjamín con un magister en dirección estratégica de ventas, se dedicó estos últimos
-        años a ejercer su profesión en grandes empresas de retail, logrando obtener un conocimiento profundo
-        en como generar conexiones directas con clientes.
-            </p>
-            <Link to="/historia"><button className="modal-btn align-self-start mt-4">Conoce toda la historia!</button></Link>
-        </div>
-        </Modal.Body>
-      </Modal>
+        path={"/historia"}
+        buttonLink={<button className="modal-btn-lg align-self-start mt-4">Conoce toda la historia!</button>}
+        />
         </>
     )
 }

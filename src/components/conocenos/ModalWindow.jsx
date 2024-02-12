@@ -1,19 +1,15 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './conocenos.css'
 
-function ModalWindow({title, text}) {
-
-    const [modalShow, setModalShow] = useState(false);
+function ModalWindow({title, text, show, onHide, buttonLink, path}) {
 
     return(
         <>
          <Modal
         size="lg"
-        show={modalShow}
-        onHide={() => setModalShow(false)}
+        show={show}
+        onHide={onHide}
         aria-labelledby="example-modal-sizes-title-sm"
         className="d-flex align-items-center"
       >
@@ -24,9 +20,12 @@ function ModalWindow({title, text}) {
         </Modal.Header>
         <Modal.Body>
         <div className="d-flex flex-column">
-            <p> {text}
-            </p>
-            <Link className="d-none" to="/historia"><button className="modal-btn align-self-start mt-4">Ver más</button></Link>
+            <section>
+              <p>{text}</p>
+            </section>
+            <section>
+            <Link className="" to={path}>{buttonLink}</Link>
+            </section>
         </div>
         </Modal.Body>
       </Modal>

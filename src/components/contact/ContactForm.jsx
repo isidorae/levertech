@@ -85,7 +85,8 @@ function ContactForm() {
             <form onSubmit={ contactFormData } className="d-flex flex-column">
                 <label className="mt-2">Nombre Completo*</label>
                 <input
-                value={name} onChange={(e) => setName(e.target.value)}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 onBlur={() => onBlurEvent("name")} className={nameErr.length > 0 ? "form-err" : null}
                 type="text" placeholder="Nombre completo" />
                 {nameErr.length > 0
