@@ -6,6 +6,7 @@ import ThirdComponent from "./ThirdComponent"
 import Beneficios from "../como-funciona/Beneficios"
 import './heroimg.css'
 import EquipoFundador from "./EquipoFundador"
+import LatestNews from "./LatestNews"
 
 function HomeComponent() {
 
@@ -23,6 +24,7 @@ function HomeComponent() {
                 <ClientReviews />
                 <EquipoFundador />
                 <FourthComponent />
+                <LatestNews />
             </section>
         </div>
         </>

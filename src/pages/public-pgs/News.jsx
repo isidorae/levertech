@@ -1,9 +1,10 @@
+import NoticiasMain from "../../components/noticias/NoticiasMain"
 
 function News() {
 
     return(
         <>
-        <h1>Noticias</h1>
+         <NoticiasMain />
         </>
     )
 }

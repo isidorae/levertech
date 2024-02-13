@@ -208,6 +208,21 @@ p {
   background-color: var(--blue-strong-color);
 }
 
+.news-btn {
+  font-family: 'Montserrat', sans-serif;
+  color: var( --light-bg-color);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: var(--green-second-light-color);
+  border: none;
+  border-radius: 0px;
+}
+
+.news-btn:hover {
+  background-color: var(--blue-strong-color);
+}
+
 
 /*  Boostrap reset */
 
