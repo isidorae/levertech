@@ -18,4 +18,4 @@ function WorkComponent() {
     )
 }
 
-export default JobsComponent
+export default WorkComponent
