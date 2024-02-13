@@ -15,12 +15,12 @@ function FaqsComp() {
             />
             <AccordionItem
             keyNumber={"1"}
-            header={"#1 ¿Qué es el apartamentaje?"}
+            header={"#2 ¿Cuánto demoran en vender mi propiedad?"}
             text={"Es un instrumento financiero en el cual LeverProp hace un rescate del patrimonio inmobiliario del cliente, comprando la deuda y sacando el activo de su balance. Esto permite al cliente liberarse de la carga mensual del dividendo, mientras vendemos la propiedad, protegiendo su patrimonio."}
             />
             <AccordionItem
             keyNumber={"2"}
-            header={"#1 ¿Qué es el apartamentaje?"}
+            header={"#3 ¿Qué es el apartamentaje?"}
             text={"Es un instrumento financiero en el cual LeverProp hace un rescate del patrimonio inmobiliario del cliente, comprando la deuda y sacando el activo de su balance. Esto permite al cliente liberarse de la carga mensual del dividendo, mientras vendemos la propiedad, protegiendo su patrimonio."}
             />
         </Accordion>
