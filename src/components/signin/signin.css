@@ -9,3 +9,16 @@
 .login-form:hover {
     filter: drop-shadow(0 0 0.5em #646cffaa);
 }
+
+.register-form  {
+    width: 22rem;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 15px;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.register-form input {
+    width: 18rem;
+}
