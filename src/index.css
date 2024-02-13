@@ -77,6 +77,10 @@ p {
   background-color: var(--green-light-bg-color);
 }
 
+.shadow-text {
+  text-shadow: 0.15rem 0.2rem 0.5rem rgb(56, 62, 121);
+}
+
 
 .second-green-color {
   color: var(--green-second-light-color);
@@ -186,6 +190,21 @@ p {
 }
 
 .modal-btn:hover {
+  background-color: var(--blue-strong-color);
+}
+
+.modal-btn-lg {
+  font-family: 'Montserrat', sans-serif;
+  width: 15rem;
+  color: var( --light-bg-color);
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: var(--green-second-light-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.modal-btn-lg:hover {
   background-color: var(--blue-strong-color);
 }
 

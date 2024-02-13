@@ -1,9 +1,21 @@
 .about-empresa-container {
-    height: 40vh;
+    height: 50vh;
+    width: auto;
+    background-image: url(/aboutus-imgs/casa-empresa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.la-empresa-opaciity-layer {
+    height: inherit;
+    width: 100vw;
+    background: rgb(8,8,20);
+    background: linear-gradient(16deg, rgba(12, 12, 40, 0.7) 0%, rgba(35,35,79,0.6) 35%, rgba(178,232,244,0.4) 100%);
 }
 
 .empresa-info {
-    max-width: 600px;
+    max-width: 700px;
     padding: 2rem;
 }
 
@@ -20,6 +32,13 @@
     background-position: center;
     overflow: hidden;
 
+}
+
+.valor-card {
+    padding: 1rem;
+    max-width: 350px;
+    height: auto;
+    /* height: 200px; */
 }
 
 /* MODAL WINDOWS */
@@ -40,19 +59,6 @@
     --bs-btn-close-color: white !important;
 }
 
-/* .cultura-laboral-container {
-    height: 65vh;
-    background-image: url(/aboutus-imgs/leverteam-01.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.cultura-laboral-opacity {
-    height: inherit;
-    background: rgb(8,8,20);
-    background: linear-gradient(16deg, rgba(12, 12, 40, 0.4) 0%, rgba(35,35,79,0.3) 35%, rgba(178,232,244,0.5) 100%);
-} */
 
 .team-img {
     height: 40vh;
@@ -83,10 +89,21 @@
 
 }
 
+.mision-vision-container {
+    padding: 0 !important;
+}
+.row-mision-container {
+    margin: 0 !important;
+}
+
+.col-mision-container {
+    padding: 0 !important;
+}
+
 .mision-container {
     min-width: 400px;
     height: 400px;
-    background-image: url(/aboutus-imgs/visionwideimg.jpg);
+    background-image: url(/aboutus-imgs/misionimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,6 +113,22 @@
     width: inherit;
     background: rgb(8,8,20);
     background: linear-gradient(16deg, rgba(12, 12, 40, 0.5) 0%, rgba(35,35,79,0.6) 35%, rgba(178,232,244,0.6) 100%);
+}
+
+.values-container {
+    min-width: 400px;
+    height: 400px;
+    background-image: url(/aboutus-imgs/valoresimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vision-container {
+    min-width: 400px;
+    height: 400px;
+    background-image: url(/aboutus-imgs/visionwideimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (min-width: 700px) {

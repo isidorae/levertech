@@ -22,11 +22,13 @@ import Equipo from './pages/about/Equipo'
 
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
   return (
     <>
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route path="/" element={< Home/>}/>

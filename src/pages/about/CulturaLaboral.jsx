@@ -1,10 +1,11 @@
+import InfoCulturaLaboral from "../../components/historia/InfoCulturaLaboral"
 
 function CulturaLaboral() {
 
     return(
         <>
         <div className="full-view-height">
-            <h1>Cultura Laboral</h1>
+            <InfoCulturaLaboral />
         </div>
         </>
     )
