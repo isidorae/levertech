@@ -1,9 +1,12 @@
+import RegisterComp from "../../components/signin/RegisterComp"
 
 function Register() {
 
     return(
         <>
-        <h1>Registro</h1>
+        <div className="full-view-height bg-color-light  d-flex justify-content-center">
+            <RegisterComp/>
+        </div>
         </>
     )
 }

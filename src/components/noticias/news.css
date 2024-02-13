@@ -1,18 +1,25 @@
-.news-card {
-    height: 500px;
-    width: 400px;
-    overflow: hidden;
-    position:relative;
+
+.news-card-title {
+    color: var(--green-second-light-color) !important;
 }
 
-/* .news-card-img-container {
-    height: 15rem;
-    width: 30rem;
-} */
+.news-card-title:hover {
+    color: var(--blue-strong-color) !important;
+}
 
-.news-card-img {
-    height:auto;
-    width: 15rem;
-    object-fit: cover;
+/* RESET BOOSTRAP STYLES */
+.card {
+    --bs-card-border-radius: none !important;
+    border: 2px solid var(--green-second-light-color) !important;
+    box-shadow: 4px 4px 2px rgb(222, 222, 222);
+    will-change: filter;
+    transition: filter 300ms;
+}
 
+.card:hover {
+    filter: drop-shadow(0 0 0.5em #646cffaa);
+}
+
+.card a {
+    border-radius: none !important;
 }

@@ -1,9 +1,12 @@
+import LoginComp from "../../components/signin/LoginComp"
 
 function Login() {
 
     return(
         <>
-        <h1>Login</h1>
+        <div className="full-view-height d-flex justify-content-center bg-color-light ">
+            <LoginComp />
+        </div>
         </>
     )
 }

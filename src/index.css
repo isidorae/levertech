@@ -40,6 +40,7 @@ h1, h2 {
 a, p, section {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  text-decoration: none !important;
 }
 
 form, label, input {
@@ -223,6 +224,20 @@ p {
   background-color: var(--blue-strong-color);
 }
 
+.sign-btn {
+  font-family: 'Montserrat', sans-serif;
+  width: 13rem;
+  color: var( --light-bg-color);
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: var(--green-second-light-color);
+  border: none;
+  border-radius: 20px;
+}
+
+.sign-btn:hover {
+  background-color: var(--blue-strong-color);
+}
 
 /*  Boostrap reset */
 

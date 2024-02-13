@@ -1,0 +1,11 @@
+.login-form {
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 15px;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.login-form:hover {
+    filter: drop-shadow(0 0 0.5em #646cffaa);
+}

@@ -8,7 +8,7 @@ import logo from "../assets/leverwhite.png";
 import { useState } from "react";
 
 function NavBar() {
-  const [isAuth, setIsAuth] = useState(true);
+  const [isAuth, setIsAuth] = useState(false);
 
   return (
     <>

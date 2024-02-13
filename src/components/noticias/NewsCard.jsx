@@ -18,7 +18,7 @@ function NewsCard({path, img, date, category, title, text}) {
             </section>
           </Card.Text>
           <Link to="/">
-            <Card.Title>{title}</Card.Title>
+            <Card.Title className="news-card-title"><b>{title}</b></Card.Title>
           </Link>
           <Card.Text>
             {text}

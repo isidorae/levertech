@@ -12,6 +12,12 @@
     max-width: 600px;
     min-width: auto;
     padding: 2rem;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.contact-form-card:hover {
+    filter: drop-shadow(0 0 0.5em #646cffaa);
 }
 
 input, textarea {
