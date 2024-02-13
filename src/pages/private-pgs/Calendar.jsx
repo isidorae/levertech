@@ -1,9 +1,12 @@
+import Agendar from "../../components/profile/Agendar"
 
 function Calendar() {
 
     return(
         <>
-        <h1>Calendario</h1>
+        <div className="full-view-height">
+        <Agendar />
+        </div>
         </>
     )
 }

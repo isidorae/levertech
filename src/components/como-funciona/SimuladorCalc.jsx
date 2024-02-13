@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
 
 function SimuladorCalc(){
 
@@ -75,6 +76,7 @@ function SimuladorCalc(){
                     <p className="fs-5 fw-bold green-light-ft ">{textResult}</p>
                 </section>
             </div>
+            <p className="fst-italic dark-grey-ft text-center">Si quieres una simulación mas avanzada, <br /><Link to="/contacto"><span className="fw-bold">contáctate</span></Link> con nuestros expertos o <Link to="/login"><span className="fw-bold">inicia sesión</span></Link> para probar el simulador avanzado.</p>
         </div>
         </>
     )

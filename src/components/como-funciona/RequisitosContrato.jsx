@@ -22,7 +22,7 @@ function RequisitosContrato(){
                         <IoArrowForwardCircleOutline className="fs-1 m-2 main-green-font"/>
                     </section>
                     <section>
-                        <p className="dark-grey-ft">Su crédito hipotecario debe tener una deuda no mayor al 60% del crédito total aproximadamente. <HashLink to="#SimuladorCalc" smooth>Ir a simulador</HashLink></p>
+                        <p className="dark-grey-ft">Su crédito hipotecario debe tener una deuda no mayor al 60% del crédito total aproximadamente. <HashLink to="#SimuladorCalc" smooth>Ir a simulador simple.</HashLink></p>
                     </section>
                 </div>
                 <div className="d-flex align-items-center">

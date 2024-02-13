@@ -1,9 +1,12 @@
+import MyProfile from "../../components/profile/MyProfile"
 
 function Profile() {
 
     return(
         <>
-        <h1>User Profile</h1>
+        <div className="full-view-height">
+            <MyProfile />
+        </div>
         </>
     )
 }

@@ -10,15 +10,18 @@ import News from './pages/public-pgs/News'
 import Login from './pages/public-pgs/Login'
 import Register from './pages/public-pgs/Register'
 import Contratar from './pages/private-pgs/Contratar'
-import Simulador from './pages/Simulador'
+import Simulador from './pages/private-pgs/Simulador'
 import Calendar from './pages/private-pgs/Calendar'
 import Profile from './pages/private-pgs/Profile'
+import MisDatos from './pages/private-pgs/MisDatos'
+
 import Privacidad from './pages/Privacidad'
 import Terminos from './pages/Terminos'
 import Historia from './pages/about/Historia'
 import CulturaLaboral from './pages/about/CulturaLaboral'
 import Valores from './pages/about/Valores'
 import Equipo from './pages/about/Equipo'
+
 
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
@@ -45,9 +48,10 @@ function App() {
         <Route path="/login" element={< Login/>}/>
         <Route path="/registro" element={< Register/>}/>
         <Route path="/contratar" element={< Contratar/>}/>
-        <Route path="/simulador" element={< Simulador/>}/>
-        <Route path="/agendar" element={< Calendar/>}/>
-        <Route path="/profile" element={< Profile/>}/>
+        <Route path="/mi-perfil/simulador" element={< Simulador/>}/>
+        <Route path="/mi-perfil/agendar" element={< Calendar/>}/>
+        <Route path="/mi-perfil" element={< Profile/>}/>
+        <Route path="/mi-perfil/datos" element={< MisDatos/>}/>
         <Route path="/politicas-privacidad" element={< Privacidad/>}/>
         <Route path="/terminos-y-condiciones" element={< Terminos/>}/>
         <Route path="/*" element={<Navigate to="/" />}/>

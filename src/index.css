@@ -175,10 +175,6 @@ p {
   width: 8rem;
 }
 
-.simulador-btn:hover {
-  background-color: var(--blue-strong-color);
-}
-
 .modal-btn {
   font-family: 'Montserrat', sans-serif;
   width: 10rem;
@@ -188,10 +184,6 @@ p {
   background-color: var(--green-second-light-color);
   border: none;
   border-radius: 5px;
-}
-
-.modal-btn:hover {
-  background-color: var(--blue-strong-color);
 }
 
 .modal-btn-lg {
@@ -205,9 +197,6 @@ p {
   border-radius: 5px;
 }
 
-.modal-btn-lg:hover {
-  background-color: var(--blue-strong-color);
-}
 
 .news-btn {
   font-family: 'Montserrat', sans-serif;
@@ -218,10 +207,6 @@ p {
   background-color: var(--green-second-light-color);
   border: none;
   border-radius: 0px;
-}
-
-.news-btn:hover {
-  background-color: var(--blue-strong-color);
 }
 
 .sign-btn {
@@ -235,9 +220,29 @@ p {
   border-radius: 20px;
 }
 
-.sign-btn:hover {
+.sign-btn:hover,
+.user-actions-btn:hover,
+.news-btn:hover,
+.modal-btn-lg:hover,
+.modal-btn:hover,
+.simulador-btn:hover {
   background-color: var(--blue-strong-color);
 }
+
+.user-actions-btn {
+  font-family: 'Montserrat', sans-serif;
+  width: 8rem;
+  color: var( --light-bg-color);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: var(--green-second-light-color);
+  border:none;
+  border-radius: 15px;
+}
+
+
+
 
 /*  Boostrap reset */
 

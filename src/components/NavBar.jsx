@@ -8,7 +8,7 @@ import logo from "../assets/leverwhite.png";
 import { useState } from "react";
 
 function NavBar() {
-  const [isAuth, setIsAuth] = useState(false);
+  const [isAuth, setIsAuth] = useState(true);
 
   return (
     <>
@@ -44,7 +44,7 @@ function NavBar() {
               {isAuth ? (
                 <>
                 <NavDropdown title="@Usuario" id="collapsible-nav-dropdown" className="mt-1 light-ft-color">
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item as={Link} to="/mi-perfil">
                     Mi Perfil
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.1">
