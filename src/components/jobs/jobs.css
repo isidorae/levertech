@@ -1,0 +1,68 @@
+.work-text-container {
+    width: 50vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.work-form-card {
+    width: 95vw;
+    background-color: white;
+    border: 2px solid var(--green-third-light-color);
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: auto;
+    padding: 2rem;
+}
+
+input, textarea {
+    background-color: rgb(234, 245, 241);
+    padding: 1rem;
+    color: var(--green-main-color);
+    height: 2.3rem;
+    border: 1.5px solid var(--green-second-light-color);
+    border-radius: 15px;
+}
+
+    select, .option-input {
+    background-color: rgb(234, 245, 241);
+    border: 1.5px solid var(--green-second-light-color);
+    padding: 0.3rem;
+    border-radius: 15px;
+    color: var(--green-main-color) !important;
+}
+
+textarea {
+    height: 10rem;
+}
+
+
+label {
+    color: var(--green-third-dark-color);
+    font-weight: 600;
+}
+
+::placeholder {
+    color: var(--green-second-light-color);
+}
+
+.send-btn {
+    background-color: var(--green-second-light-color);
+    height: 2.3rem;
+    color: var(--light-bg-color);
+    border: none;
+    border-radius: 10px;
+}
+
+.send-btn:hover {
+    background: rgb(29,98,90);
+    background: linear-gradient(18deg, rgba(29,98,90,1) 0%, rgba(59,174,160,1) 50%, rgba(139,210,202,1) 100%);
+}
+
+@media (max-width: 600px) {
+    .work-text-container {
+        width: 90vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+}

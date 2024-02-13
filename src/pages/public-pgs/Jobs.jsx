@@ -1,9 +1,12 @@
+import JobsComponent from "../../components/jobs/JobsComponent"
 
 function Jobs() {
 
     return(
         <>
-        <h1>Trabaja con Nosotros</h1>
+        <div className="full-view-height linear-gradient-green-bg">
+        <JobsComponent />
+        </div>
         </>
     )
 }
