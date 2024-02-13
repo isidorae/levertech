@@ -11,14 +11,21 @@ function ComoFunciona() {
 
     return(
         <>
-        <div className="bg-color-white pt-2 pb-1">
+        {/* <div className="bg-color-white pt-2 pb-1">
             <h1 className="text-center mt-5">¿Cómo Funciona?</h1>
-        </div>
+        </div> */}
         <div className="comofunciona-text-container text-center bg-color-white">
-            <p className=" fs-2 grey-font">
-                <span className="fs-4 dark-grey-ft fw-light"> ¿Te quieres mudar y tu propiedad actual te genera un gasto mensual que no te lo permite?</span><br />
-                ¡Atrévete con Lever y no te preocupes más!
-            </p>
+            <div className="como-funciona-text-opacity d-flex flex-column align-items-center justify-content-center">
+                <section>
+                    <h1 className="fs-1 text-center text-white shadow-text">¿Cómo Funciona?</h1>
+                </section>
+                <section className="mt-2 ps-5 pe-5">
+                    <p className="fs-4 text-white fw-bold shadow-text">
+                        ¿Te quieres mudar y tu propiedad actual te genera un gasto mensual que no te lo permite?<br />
+                        ¡Atrévete con Lever y no te preocupes más!
+                        </p>
+                </section>
+            </div>
         </div>
         <div className="pasos-container">
             <Pasos />
