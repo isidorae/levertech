@@ -1,5 +1,6 @@
 import SimBenefitsItem from "./SimBenefitsItem"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 function SimAvanzado(){
 
@@ -10,16 +11,26 @@ function SimAvanzado(){
     const [toPay, setToPay] = useState(0)
     const [displayResult, setDisplayResult] = useState(false)
 
+    const [err, setErr] = useState([])
+
     function simulacionAvanzada(e) {
+
+        if (credito == "" || dividendo == "" || meses == "") {
+            return setErr(["Debes rellenar todos los campos."])
+        }
 
         e.preventDefault()
         setDisplayResult(true)
+        setErr([])
         return setToPay((parseInt(credito)) * 0.015)
 
     }
 
     return(
         <>
+        <div className="mt-2 ms-3">
+            <Link to="/mi-perfil"><span className="fst-italic fw-bold dark-grey-ft breadcrumb-ft">/Volver a perfil</span></Link>
+        </div>
         <div className="m-5 d-flex flex-column align-items-center justify-content-center">
             <h1>Simulador</h1>
             <section>
@@ -27,6 +38,7 @@ function SimAvanzado(){
             </section>
             <section className="mt-5 d-flex flex-column align-items-center">
                 <h2 className="fw-bold">Tu situación actual</h2>
+                { err.length > 0 ? <p className="form-err-msg mb-2">{ err }</p> : null }
                 <form onSubmit={simulacionAvanzada} className="d-flex flex-column align-items-center justify-content-center">
                     <fieldset className="d-flex flex-column">
                     <label htmlFor="">Monto actual crédito hipotecario (UF)</label>
@@ -49,7 +61,7 @@ function SimAvanzado(){
                         setDisplayResult(false)
                         setMeses(e.target.value)
                     }} >
-                        <option>--Seleccionar--</option>
+                        <option value={""}>--Seleccionar--</option>
                         <option value={6}>6</option>
                         <option value={12}>12</option>
                         <option value={18}>18</option>

@@ -10,8 +10,9 @@ import News from './pages/public-pgs/News'
 import Login from './pages/public-pgs/Login'
 import Register from './pages/public-pgs/Register'
 import Contratar from './pages/private-pgs/Contratar'
+import Calendario from './pages/private-pgs/Calendario'
 import Simulador from './pages/private-pgs/Simulador'
-import Calendar from './pages/private-pgs/Calendar'
+import Asesores from './pages/private-pgs/Asesores'
 import Profile from './pages/private-pgs/Profile'
 import MisDatos from './pages/private-pgs/MisDatos'
 
@@ -47,9 +48,9 @@ function App() {
         <Route path="/noticias" element={< News/>}/>
         <Route path="/login" element={< Login/>}/>
         <Route path="/registro" element={< Register/>}/>
-        <Route path="/contratar" element={< Contratar/>}/>
+        <Route path="/calendario/:asesor" element={< Calendario/>}/>
         <Route path="/mi-perfil/simulador" element={< Simulador/>}/>
-        <Route path="/mi-perfil/agendar" element={< Calendar/>}/>
+        <Route path="/mi-perfil/agendar" element={< Asesores/>}/>
         <Route path="/mi-perfil" element={< Profile/>}/>
         <Route path="/mi-perfil/datos" element={< MisDatos/>}/>
         <Route path="/politicas-privacidad" element={< Privacidad/>}/>

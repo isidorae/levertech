@@ -37,11 +37,12 @@ h1, h2 {
   color:  var(--green-main-color) !important;
 }
 
-a, p, section {
+a, p, section, span {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-decoration: none !important;
 }
+
 
 form, label, input {
   font-family: 'Montserrat', sans-serif;
@@ -109,6 +110,10 @@ p {
 
 .green-light-ft {
   color: var(--green-light-bg-color);
+}
+
+.breadcrumb-ft:hover {
+  color: var(--blue-strong-color);
 }
 
 .maxvw80 {
@@ -220,15 +225,6 @@ p {
   border-radius: 20px;
 }
 
-.sign-btn:hover,
-.user-actions-btn:hover,
-.news-btn:hover,
-.modal-btn-lg:hover,
-.modal-btn:hover,
-.simulador-btn:hover {
-  background-color: var(--blue-strong-color);
-}
-
 .user-actions-btn {
   font-family: 'Montserrat', sans-serif;
   width: 8rem;
@@ -240,6 +236,44 @@ p {
   border:none;
   border-radius: 15px;
 }
+
+.agendar-btn {
+  font-family: 'Montserrat', sans-serif;
+  width: 5rem !important;
+  margin: 0.5rem;
+  color: var( --light-bg-color);
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: var(--green-second-light-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-btn:hover,
+.user-actions-btn:hover,
+.news-btn:hover,
+.modal-btn-lg:hover,
+.modal-btn:hover,
+.simulador-btn:hover,
+.agendar-btn:hover {
+  background-color: var(--blue-strong-color);
+}
+
+.agendar-btn:focus {
+  background-color: var(--grey-font-dark);
+}
+
+.btn-active {
+  background-color: var(--grey-font-dark);
+}
+
+.agendar-btn:disabled {
+  background-color: rgb(205, 205, 205);
+  color: rgb(238, 238, 238);
+}
+
+
+
 
 
 

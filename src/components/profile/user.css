@@ -2,3 +2,27 @@
     background-color: rgb(234, 245, 241);
     border: 2px solid var(--green-main-color);
 }
+
+.asesor-card-container {
+    /* border: 2px solid rgb(106, 106, 106) !important;
+    border-radius: 10px; */
+    max-width: 400px !important;
+}
+
+.asesor-about-container {
+    max-width: 350px;
+}
+
+
+
+.asesor-img {
+    width: 7rem;
+    height: 7rem;
+}
+
+@media (min-width: 1030px) {
+    .asesor-card-container {
+        width: 500px !important;
+    } 
+    
+}
