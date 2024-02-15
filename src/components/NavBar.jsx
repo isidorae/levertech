@@ -50,10 +50,10 @@ function NavBar() {
                   <NavDropdown.Item href="#action/3.1">
                     Contratar
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
+                  <NavDropdown.Item as={Link} to="/mi-perfil/simulador">
                     Simular
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
+                  <NavDropdown.Item as={Link} to="/mi-perfil/agendar">
                     Agendar
                   </NavDropdown.Item>
               </NavDropdown>

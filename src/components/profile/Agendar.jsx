@@ -14,7 +14,7 @@ function Agendar() {
             <Link to="/mi-perfil"><span className="fst-italic fw-bold dark-grey-ft breadcrumb-ft">/Volver a perfil</span></Link>
         </div>
       <div className="m-5 d-flex flex-column align-items-center justify-content-center">
-        <h1 className="mt-3">Selecciona un Asesor</h1>
+        <h1 className="mt-3">Selecciona Tu Asesor</h1>
         <Container className="d-flex align-items-center justify-content-center">
           <Row className="d-flex align-items-center justify-content-center" >
             <AsesorCard
