@@ -1,4 +1,4 @@
-import WorkComponent from "../../components/jobs/JobsComponent"
+import WorkComponent from "../../components/jobs/WorkComponent"
 
 function Jobs() {
 
